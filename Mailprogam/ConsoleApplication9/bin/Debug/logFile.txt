@@ -1,0 +1,63 @@
+----------------------------------------------------x---
+17-5-2016 00:06:21
+MailKit.Security.AuthenticationException: Invalid credentials (Failure)
+   at MailKit.Net.Imap.ImapClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 52
+----------------------------------------------------x---
+17-5-2016 00:07:36
+MailKit.Security.AuthenticationException: Invalid credentials (Failure)
+   at MailKit.Net.Imap.ImapClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 52
+-------------------------------------------------------
+17-5-2016 00:54:39
+System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 48
+-------------------------------------------------------
+17-5-2016 01:00:13
+System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 49
+-------------------------------------------------------
+24-5-2016 05:00:22
+System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 71
+-------------------------------------------------------
+24-5-2016 05:03:47
+System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 71
+-------------------------------------------------------
+24-5-2016 05:05:45
+System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at MailKit.Net.Imap.ImapClient.Connect(String host, Int32 port, SecureSocketOptions options, CancellationToken cancellationToken)
+   at MailKit.MailService.Connect(String host, Int32 port, Boolean useSsl, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 72
+-------------------------------------------------------
+24-5-2016 07:13:40
+MailKit.Security.AuthenticationException: Authentication failed.
+   at MailKit.Net.Imap.ImapClient.Authenticate(Encoding encoding, ICredentials credentials, CancellationToken cancellationToken)
+   at MailKit.MailService.Authenticate(String userName, String password, CancellationToken cancellationToken)
+   at ConsoleApplication9.mail.connect(String mail, String password) in C:\Users\lex\Downloads\Mailprogam\ConsoleApplication9\mail.cs:line 74
